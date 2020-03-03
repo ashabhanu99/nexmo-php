@@ -1,0 +1,6 @@
+curl -X POST  https://rest.nexmo.com/sms/json \
+-d api_key=96bca045 \
+-d api_secret=j4HGM0EX4rWUpi7S \
+-d to=44745255536 \
+-d from="NEXMO" \
+-d text="Hello from Nexmo"
